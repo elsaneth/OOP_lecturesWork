@@ -29,4 +29,15 @@ public class Paat extends Soiduk {
             }
         }
     }
+
+    @Override
+    public void sethind() {
+        setHind(syvis, maxKiirus);
+    }
+
+    public void show() {
+        System.out.println("Number: " + this.number + ", max kiirus: " +
+                this.maxKiirus + ", hind: " + this.hind + ", süvis: " +
+                this.syvis);
+    }
 }

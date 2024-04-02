@@ -17,4 +17,14 @@ public class Auto extends Soiduk {
             this.hind = 1000;
         }
     }
+
+    @Override
+    public void sethind() {
+        setHind(maxKiirus);
+    }
+
+    public void show() {
+        System.out.println("Number: " + this.number + ", max kiirus: " +
+                this.maxKiirus + ", hind: " + this.hind + ", max korgus: ");
+    }
 }

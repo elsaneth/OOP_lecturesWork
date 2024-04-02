@@ -1,6 +1,6 @@
 package Soidukid;
 
-public class Soiduk {
+public abstract class Soiduk {
     String number;
     int maxKiirus;
     int hind;
@@ -29,6 +29,8 @@ public class Soiduk {
     public void setHind() {
         this.hind = 0;
     }
+    public abstract void sethind();
+    public abstract void show();
 
     @Override
     public String toString() {
