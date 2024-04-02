@@ -28,6 +28,7 @@ public class Suits6 {
         auto2.setHind(auto2.getMaxKiirus());
         paat1.setHind(paat1.getSyvis(), paat1.getMaxKiirus());
         paat2.setHind(paat2.getSyvis(), paat1.getMaxKiirus());
+        paat2.setHind();
 
         String auto1Nr = auto1.getNumber();
         String auto2Nr = auto2.getNumber();
@@ -39,7 +40,7 @@ public class Suits6 {
         int paat1Hind = paat1.getHind();
         int paat2Hind = paat2.getHind();
 
-        System.out.println("Auto1 number: " + auto1Nr + ", hind: " + auto1Hind + ", max kiirus: " + auto1.getMaxKiirus());
+        System.out.println("Auto1 number: " + auto1.getNumber() + ", hind: " + auto1Hind + ", max kiirus: " + auto1.getMaxKiirus());
         System.out.println("Auto2 number: " + auto2Nr + ", hind: " + auto2Hind + ", max kiirus: " + auto2.getMaxKiirus());
         System.out.println("Paat1 number: " + paat1Nr + ", hind: " + paat1Hind + ", max kiirus: " + paat1.getMaxKiirus());
         System.out.println("Paat2 number: " + paat2Nr + ", hind: " + paat2Hind + ", max kiirus: " + paat2.getMaxKiirus());
@@ -51,6 +52,6 @@ public class Suits6 {
         soidukid.add(paat1);
         soidukid.add(paat2);
 
-        System.out.println("Soidukid: " + soidukid.toString());
+        System.out.println("Soidukid: " + soidukid);
     }
 }
